@@ -42,7 +42,7 @@ function CreateTodo() {
 
   return (
     <div className="shadow justify-content-center text-center w-50 offset-lg-3">
-         <h1>Todo Application</h1>
+         <h1 className="m-5">Crud avec React et Firebase</h1>
            <form onSubmit={handleSubmit} ref={formRef}>
       <div className="input-container container">
         <div className="row">

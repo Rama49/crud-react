@@ -65,14 +65,14 @@ export default function Todo({
   return (
     <div className="col-lg-4 col-md-6 col-sm-12 mt-5">
         <div className="table">
-            <thead>
+            {/* <thead>
                 <th >pppppppp</th>
                 <th>pppppppp</th>
                 <th>pppppppp</th>
                 <th>pppppppp</th>
                 <th>pppppppp</th>
                 <th>pppppppp</th>
-            </thead>
+            </thead> */}
             <tbody>
             <div className="todo d-flex align-items-center"> {/* Utilisation de la classe "d-flex" pour afficher les éléments sur la même ligne */}
         <div
