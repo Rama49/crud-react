@@ -41,10 +41,10 @@ function CreateTodo() {
   };
 
   return (
-    <div className="shadow justify-content-center text-center w-50 offset-lg-3">
+    <div className="shadow justify-content-center text-center w-50 offset-3">
          <h1 className="m-5">Crud avec React et Firebase</h1>
            <form onSubmit={handleSubmit} ref={formRef}>
-      <div className="input-container container">
+      <div className="input-container container justify-content-center align-items -center">
         <div className="row">
           <div className="col-lg-6 col-sm-12 col-md-6">
             <InputGroup hasValidation className="border border-transparent">
@@ -63,7 +63,7 @@ function CreateTodo() {
               </FloatingLabel>
             </InputGroup>
           </div>
-          <div className="col-lg-6 col-sm-12">
+          <div className="col-lg-6 col-sm-12 col-md-6">
             <InputGroup hasValidation>
               <FloatingLabel
                 controlId="floatingInput"
